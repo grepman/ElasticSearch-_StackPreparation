@@ -11,53 +11,56 @@ The document puts on the methods in the installation and configuration of Elasti
 
 h3. Specs
 
-	- ElasticSearch version 	-1.7.0
-	- Ubuntu Version		- 15.04
-	- java				- java version "1.7.0_80"
-  					Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
-  					Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11,    mixed mode)
-
+ <ul>
+ <li>	- ElasticSearch version 	-1.7.0</li>
+ <li>	- Ubuntu Version		- 15.04</li>
+ <li>	- java				- <ul><li>java version "1.7.0_80"</li>
+  					<li>Java(TM) SE Runtime Environment (build 1.7.0_80-b15)</li>
+  					<li>Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11,    mixed mode)</li></ul>
+</ul>
 
 h3. Procedure
 
-Installation of Java Virtual Machine
-apt-get update
-apt-get install openjdk-6-jre
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get install oracle-java7-installer
-check (by) - java -version
-Installation of ElasticSearch
-wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.7.0.zip
-unzip elasticsearch-1.7.0.zip
+<ul><li>Installation of Java Virtual Machine
+<ul><li>apt-get update</li>
+<li>apt-get install openjdk-6-jre</li>
+<li>sudo add-apt-repository ppa:webupd8team/java</li>
+<li>sudo apt-get install oracle-java7-installer</li>
+<li>check (by) - java -version</li></ul></li></ul>
+
+h3. Installation of ElasticSearch
+
+** wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-1.7.0.zip
+** unzip elasticsearch-1.7.0.zip
 
 h3. Configuring
 
-First check the unzipped ElasticSearch Directory.
-goto config/
-edit elasticsearch.yml
-cluster.name: ***** (For Distributed Systems Network Handling)
-node.name: Grepman (For Specifying the master)
-node.rack: rack314 (For Distributed Shard allocation) [check if default]
-Now create a new Data Folder [to avoid overwriting of data while ES Update]
-create data_pykih_nodes [mkdir]
-change in config -> path.data
+** First check the unzipped ElasticSearch Directory.
+** goto config/
+** edit elasticsearch.yml
+** cluster.name: _________ (For Distributed Systems Network Handling)
+** node.name: Grepman (For Specifying the master)
+** node.rack: rack314 (For Distributed Shard allocation) [check if default]
+** Now create a new Data Folder [to avoid overwriting of data while ES Update]
+** create data_pykih_nodes [mkdir]
+** change in config -> path.data
 
 
 
 
 h3. ElasticSearch Plugins
 
-Install Marvel For Network Analysis, Logging and Insights
-./bin/plugin --install elasticsearch/marvel/latest
-Install Head For Distributed System Discovery and Maintainence
-bin/plugin --install mobz/elasticsearch-head
+** Install Marvel For Network Analysis, Logging and Insights
+ ./bin/plugin --install elasticsearch/marvel/latest
+** Install Head For Distributed System Discovery and Maintainence
+ bin/plugin --install mobz/elasticsearch-head
 
 
 h3. Run ElasticSearch
 
-For Instance : goto ElasticSearch Directory
+** For Instance : goto ElasticSearch Directory
 ./bin/elasticsearch
-For Demon : goto ElasticSearch Directory
+** For Demon : goto ElasticSearch Directory
 ./bin/elasticsearch -d
 
 
