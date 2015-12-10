@@ -1,0 +1,530 @@
+[2015-12-10 01:48:45,048][INFO ][node                     ] [Grepman] version[1.7.0], pid[10201], build[929b973/2015-07-16T14:31:07Z]
+[2015-12-10 01:48:45,049][INFO ][node                     ] [Grepman] initializing ...
+[2015-12-10 01:48:45,246][INFO ][plugins                  ] [Grepman] loaded [], sites []
+[2015-12-10 01:48:45,357][INFO ][env                      ] [Grepman] using [1] data paths, mounts [[/ (/dev/vda1)]], net usable_space [25.2gb], net total_space [29.4gb], types [ext4]
+[2015-12-10 01:48:49,526][INFO ][node                     ] [Grepman] initialized
+[2015-12-10 01:48:49,526][INFO ][node                     ] [Grepman] starting ...
+[2015-12-10 01:48:49,697][INFO ][transport                ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.15.0.6:9300]}
+[2015-12-10 01:48:49,746][INFO ][discovery                ] [Grepman] PykihNodes/AiIpC-xkStamZqBbyzaQoA
+[2015-12-10 01:48:53,546][INFO ][cluster.service          ] [Grepman] new_master [Grepman][AiIpC-xkStamZqBbyzaQoA][nodes-search.pykih.com][inet[/10.15.0.6:9300]], reason: zen-disco-join (elected_as_master)
+[2015-12-10 01:48:53,598][INFO ][http                     ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.15.0.6:9200]}
+[2015-12-10 01:48:53,599][INFO ][node                     ] [Grepman] started
+[2015-12-10 01:48:53,637][INFO ][gateway                  ] [Grepman] recovered [0] indices into cluster_state
+[2015-12-10 01:50:08,185][INFO ][node                     ] [Grepman] stopping ...
+[2015-12-10 01:50:08,205][INFO ][node                     ] [Grepman] stopped
+[2015-12-10 01:50:08,206][INFO ][node                     ] [Grepman] closing ...
+[2015-12-10 01:50:08,223][INFO ][node                     ] [Grepman] closed
+[2015-12-10 01:52:58,466][INFO ][node                     ] [Grepman] version[1.7.0], pid[10285], build[929b973/2015-07-16T14:31:07Z]
+[2015-12-10 01:52:58,467][INFO ][node                     ] [Grepman] initializing ...
+[2015-12-10 01:52:58,672][INFO ][plugins                  ] [Grepman] loaded [marvel], sites [marvel, head]
+[2015-12-10 01:52:58,787][INFO ][env                      ] [Grepman] using [1] data paths, mounts [[/ (/dev/vda1)]], net usable_space [25.2gb], net total_space [29.4gb], types [ext4]
+[2015-12-10 01:53:03,184][INFO ][node                     ] [Grepman] initialized
+[2015-12-10 01:53:03,185][INFO ][node                     ] [Grepman] starting ...
+[2015-12-10 01:53:03,360][INFO ][transport                ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.15.0.6:9300]}
+[2015-12-10 01:53:03,416][INFO ][discovery                ] [Grepman] PykihNodes/7seRA_XaQD6PsFL7J9bo7A
+[2015-12-10 01:53:07,202][INFO ][cluster.service          ] [Grepman] new_master [Grepman][7seRA_XaQD6PsFL7J9bo7A][nodes-search.pykih.com][inet[/10.15.0.6:9300]], reason: zen-disco-join (elected_as_master)
+[2015-12-10 01:53:07,241][INFO ][http                     ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.15.0.6:9200]}
+[2015-12-10 01:53:07,241][INFO ][node                     ] [Grepman] started
+[2015-12-10 01:53:07,263][INFO ][gateway                  ] [Grepman] recovered [0] indices into cluster_state
+[2015-12-10 01:53:15,133][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-12-10 01:53:16,623][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [node_stats] (dynamic)
+[2015-12-10 01:53:16,801][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_event] (dynamic)
+[2015-12-10 01:53:16,915][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [node_event] (dynamic)
+[2015-12-10 01:53:16,964][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_state] (dynamic)
+[2015-12-10 01:53:17,021][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_event] (dynamic)
+[2015-12-10 01:53:17,066][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [routing_event] (dynamic)
+[2015-12-10 01:53:17,350][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [indices_stats] (dynamic)
+[2015-12-10 01:53:17,565][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_stats] (dynamic)
+[2015-12-10 01:53:17,680][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_stats] (dynamic)
+[2015-12-10 01:54:06,986][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] deleting index
+[2015-12-10 01:54:08,911][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-12-10 01:54:09,467][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [node_stats] (dynamic)
+[2015-12-10 01:54:09,547][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_event] (dynamic)
+[2015-12-10 01:54:09,636][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_state] (dynamic)
+[2015-12-10 01:54:09,653][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_event] (dynamic)
+[2015-12-10 01:54:09,691][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [routing_event] (dynamic)
+[2015-12-10 01:54:09,938][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [indices_stats] (dynamic)
+[2015-12-10 01:54:10,103][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_stats] (dynamic)
+[2015-12-10 01:54:10,187][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_stats] (dynamic)
+[2015-12-10 01:54:23,078][INFO ][cluster.metadata         ] [Grepman] [constitution] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2015-12-10 01:54:42,655][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] deleting index
+[2015-12-10 01:54:42,667][INFO ][cluster.metadata         ] [Grepman] [constitution] deleting index
+[2015-12-10 01:54:50,672][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] creating index, cause [auto(bulk api)], templates [marvel], shards [1]/[1], mappings [indices_stats, cluster_stats, node_stats, shard_event, node_event, index_event, index_stats, _default_, cluster_state, cluster_event, routing_event]
+[2015-12-10 01:54:51,123][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [node_stats] (dynamic)
+[2015-12-10 01:54:51,207][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_event] (dynamic)
+[2015-12-10 01:54:51,247][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_state] (dynamic)
+[2015-12-10 01:54:51,275][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [routing_event] (dynamic)
+[2015-12-10 01:54:51,279][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_event] (dynamic)
+[2015-12-10 01:54:51,363][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [indices_stats] (dynamic)
+[2015-12-10 01:54:51,448][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_stats] (dynamic)
+[2015-12-10 01:54:51,473][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_stats] (dynamic)
+[2015-12-10 01:54:53,351][INFO ][cluster.metadata         ] [Grepman] [constitution] creating index, cause [api], templates [], shards [2]/[0], mappings []
+[2015-12-10 01:55:01,486][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [index_event] (dynamic)
+[2015-12-10 01:55:14,317][INFO ][cluster.metadata         ] [Grepman] [constitution] create_mapping [india]
+[2015-12-10 01:56:12,652][DEBUG][action.search.type       ] [Grepman] [constitution][1], node[7seRA_XaQD6PsFL7J9bo7A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@715323b8]
+org.elasticsearch.search.SearchParseException: [constitution][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 01:56:12,655][DEBUG][action.search.type       ] [Grepman] [constitution][0], node[7seRA_XaQD6PsFL7J9bo7A], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@715323b8] lastShard [true]
+org.elasticsearch.search.SearchParseException: [constitution][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 01:56:12,658][DEBUG][action.search.type       ] [Grepman] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [constitution][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 01:58:07,099][INFO ][node                     ] [Grepman] stopping ...
+[2015-12-10 01:58:07,277][INFO ][node                     ] [Grepman] stopped
+[2015-12-10 01:58:07,277][INFO ][node                     ] [Grepman] closing ...
+[2015-12-10 01:58:07,295][INFO ][node                     ] [Grepman] closed
+[2015-12-10 01:59:01,735][INFO ][node                     ] [Grepman] version[1.7.0], pid[10383], build[929b973/2015-07-16T14:31:07Z]
+[2015-12-10 01:59:01,736][INFO ][node                     ] [Grepman] initializing ...
+[2015-12-10 01:59:01,933][INFO ][plugins                  ] [Grepman] loaded [marvel], sites [marvel, head]
+[2015-12-10 01:59:02,064][INFO ][env                      ] [Grepman] using [1] data paths, mounts [[/ (/dev/vda1)]], net usable_space [25.2gb], net total_space [29.4gb], types [ext4]
+[2015-12-10 01:59:06,442][INFO ][node                     ] [Grepman] initialized
+[2015-12-10 01:59:06,443][INFO ][node                     ] [Grepman] starting ...
+[2015-12-10 01:59:06,640][INFO ][transport                ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.15.0.6:9300]}
+[2015-12-10 01:59:06,711][INFO ][discovery                ] [Grepman] PykihNodes/dKrHPl2lQ4ql_DvJHMvoyA
+[2015-12-10 01:59:10,498][INFO ][cluster.service          ] [Grepman] new_master [Grepman][dKrHPl2lQ4ql_DvJHMvoyA][nodes-search.pykih.com][inet[/10.15.0.6:9300]], reason: zen-disco-join (elected_as_master)
+[2015-12-10 01:59:10,684][INFO ][http                     ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.15.0.6:9200]}
+[2015-12-10 01:59:10,685][INFO ][node                     ] [Grepman] started
+[2015-12-10 01:59:10,974][INFO ][gateway                  ] [Grepman] recovered [2] indices into cluster_state
+[2015-12-10 01:59:17,273][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [node_event] (dynamic)
+[2015-12-10 01:59:17,409][INFO ][cluster.metadata         ] [Grepman] [.marvel-2015.12.10] update_mapping [cluster_event] (dynamic)
+[2015-12-10 03:10:24,529][DEBUG][action.search.type       ] [Grepman] [constitution][0], node[dKrHPl2lQ4ql_DvJHMvoyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@9994c48] lastShard [true]
+org.elasticsearch.search.SearchParseException: [constitution][0]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 03:10:24,532][DEBUG][action.search.type       ] [Grepman] [constitution][1], node[dKrHPl2lQ4ql_DvJHMvoyA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@9994c48]
+org.elasticsearch.search.SearchParseException: [constitution][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 03:10:24,533][DEBUG][action.search.type       ] [Grepman] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [constitution][1]: from[-1],size[-1]: Parse Failure [Failed to parse source [{
+   "query": {
+      "match_prase": {
+         "summary": "parliament"
+      }
+   }
+}
+]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:747)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:572)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:544)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:306)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [constitution] No query registered for [match_prase]
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:303)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:731)
+	... 9 more
+[2015-12-10 04:48:36,365][INFO ][node                     ] [Grepman] stopping ...
+[2015-12-10 04:48:36,550][INFO ][node                     ] [Grepman] stopped
+[2015-12-10 04:48:36,550][INFO ][node                     ] [Grepman] closing ...
+[2015-12-10 04:48:36,577][INFO ][node                     ] [Grepman] closed
+[2015-12-10 04:50:05,198][INFO ][node                     ] [Grepman] version[1.7.0], pid[1087], build[929b973/2015-07-16T14:31:07Z]
+[2015-12-10 04:50:05,199][INFO ][node                     ] [Grepman] initializing ...
+[2015-12-10 04:50:05,531][INFO ][plugins                  ] [Grepman] loaded [marvel, shield, license], sites [marvel, head]
+[2015-12-10 04:50:05,597][INFO ][env                      ] [Grepman] using [1] data paths, mounts [[/ (/dev/vda1)]], net usable_space [25.2gb], net total_space [29.4gb], types [ext4]
+[2015-12-10 04:50:06,664][INFO ][transport                ] [Grepman] Using [org.elasticsearch.shield.transport.ShieldServerTransportService] as transport service, overridden by [shield]
+[2015-12-10 04:50:06,664][INFO ][transport                ] [Grepman] Using [org.elasticsearch.shield.transport.netty.ShieldNettyTransport] as transport, overridden by [shield]
+[2015-12-10 04:50:06,664][INFO ][http                     ] [Grepman] Using [org.elasticsearch.shield.transport.netty.ShieldNettyHttpServerTransport] as http transport, overridden by [shield]
+[2015-12-10 04:50:11,317][INFO ][node                     ] [Grepman] initialized
+[2015-12-10 04:50:11,318][INFO ][node                     ] [Grepman] starting ...
+[2015-12-10 04:50:14,320][INFO ][shield.transport         ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.15.0.6:9300]}
+[2015-12-10 04:50:14,464][INFO ][discovery                ] [Grepman] PykihNodes/-pj-qrY2Tf-RkKwJylX6NA
+[2015-12-10 04:50:18,275][INFO ][cluster.service          ] [Grepman] new_master [Grepman][-pj-qrY2Tf-RkKwJylX6NA][nodes-search.pykih.com][inet[/10.15.0.6:9300]], reason: zen-disco-join (elected_as_master)
+[2015-12-10 04:50:18,476][INFO ][http                     ] [Grepman] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.15.0.6:9200]}
+[2015-12-10 04:50:18,477][INFO ][node                     ] [Grepman] started
+[2015-12-10 04:50:18,662][INFO ][gateway                  ] [Grepman] recovered [2] indices into cluster_state
+[2015-12-10 04:50:20,698][INFO ][shield.license           ] [Grepman] enabling license for [shield]
+[2015-12-10 04:50:20,726][INFO ][license.plugin.core      ] [Grepman] license for [shield] - valid
+[2015-12-10 04:50:20,758][ERROR][shield.license           ] [Grepman] 
+#
+# Shield license will expire on [Saturday, January 09, 2016]. Cluster health, cluster stats and indices stats operations are
+# blocked on Shield license expiration. All data operations (read and write) continue to work. If you
+# have a new license, please update it. Otherwise, please reach out to your support contact.
+#
+[2015-12-10 04:50:21,548][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:21,550][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:21,550][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:21,597][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:21,599][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:21,599][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:21,685][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:21,687][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:21,687][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:21,771][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:21,789][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:21,790][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:31,839][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:31,839][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:31,840][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:31,852][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:31,853][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:31,853][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:31,885][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:31,885][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:31,885][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:31,931][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:31,931][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:31,931][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:41,947][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:41,947][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:41,948][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:41,965][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:41,972][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:41,972][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:41,989][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:41,989][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:41,989][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:52,013][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:52,014][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:52,014][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:52,032][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:52,032][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:52,033][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:50:52,050][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:50:52,050][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:50:52,050][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:02,068][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:02,069][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:02,069][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:02,081][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:02,081][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:02,081][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:02,094][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:02,095][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:02,095][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:12,114][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:12,115][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:12,115][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:12,125][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:12,125][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:12,125][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:12,135][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:12,135][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:12,135][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:22,149][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:22,150][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:22,150][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:22,164][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:22,164][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:22,165][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:22,179][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:22,179][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:22,179][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:32,197][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:32,197][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:32,197][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:32,209][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:32,210][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:32,210][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:32,226][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:32,226][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:32,226][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:42,240][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:42,241][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:42,241][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:42,251][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:42,251][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:42,251][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:42,261][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:42,261][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:42,261][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:52,284][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:52,284][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:52,284][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:52,301][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:52,302][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:52,302][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:51:52,320][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:51:52,320][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:51:52,321][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:02,335][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:02,336][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:02,336][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:02,348][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:02,349][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:02,349][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:02,365][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:02,365][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:02,365][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:12,384][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:12,384][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:12,384][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:12,395][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:12,396][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:12,396][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:12,406][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:12,407][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:12,407][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:22,456][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:22,457][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:22,457][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:22,481][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:22,482][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:22,482][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:22,509][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:22,509][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:22,509][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:32,541][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:32,542][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:32,542][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:32,557][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:32,557][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:32,557][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:32,571][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:32,572][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:32,572][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:42,600][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:42,601][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:42,601][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:42,620][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:42,620][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:42,620][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:42,643][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:42,643][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:42,644][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:52,666][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:52,666][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:52,666][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:52,683][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:52,684][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:52,684][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:52:52,705][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:52:52,705][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:52:52,705][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:02,721][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:02,721][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:02,721][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:02,733][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:02,733][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:02,734][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:02,745][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:02,745][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:02,746][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:12,759][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:12,759][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:12,759][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:12,769][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:12,770][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:12,770][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:12,785][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:12,786][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:12,786][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:22,799][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:22,800][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:22,800][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:22,809][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:22,810][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:22,810][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:22,819][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:22,819][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:22,819][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:32,834][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:32,834][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:32,834][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:32,844][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:32,844][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:32,844][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:32,854][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:32,854][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:32,854][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:42,868][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:42,868][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:42,868][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:42,878][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:42,878][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:42,878][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
+[2015-12-10 04:53:42,888][ERROR][marvel.agent.exporter    ] [Grepman] error adding the marvel template to [[0:0:0:0:0:0:0:0]:9200] response code [401 Unauthorized]. content: [{"error":"AuthenticationException[missing authentication token for REST request [/_template/marvel]]","status":401}]
+[2015-12-10 04:53:42,888][ERROR][marvel.agent.exporter    ] [Grepman] failed to verify/upload the marvel template to [[0:0:0:0:0:0:0:0]:9200]:
+Server returned HTTP response code: 401 for URL: http://[0:0:0:0:0:0:0:0]:9200/_template/marvel
+[2015-12-10 04:53:42,888][ERROR][marvel.agent.exporter    ] [Grepman] could not connect to any configured elasticsearch instances: [[0:0:0:0:0:0:0:0]:9200]
