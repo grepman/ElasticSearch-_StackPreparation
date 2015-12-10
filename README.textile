@@ -4,6 +4,7 @@ h2. Method of Installation For Begginers and Intermediate
 
 h3. Treat it as a Tutorial
 <hr>
+<center><img src="http://checkthiscloud.com/admin/github/elasticsearch/ES.jpg"></center>
 
 h3. Abstract
 
