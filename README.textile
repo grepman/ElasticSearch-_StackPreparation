@@ -56,7 +56,7 @@ h3. ElasticSearch Plugins
 ** Install <b>Head</b> For Distributed System Discovery and Maintainence
  bin/plugin --install mobz/elasticsearch-head
 <hr>
-** For Advance User add Shield for Security Perpose
+** For Advance User add <b>Shield for Security Purposes</b>
  bin/plugin --install elasticsearch/license/latest
  bin/plugin --install elasticsearch/shield/latest
 
