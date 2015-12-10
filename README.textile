@@ -51,11 +51,17 @@ h3. Configuring
 
 h3. ElasticSearch Plugins
 
-** Install Marvel For Network Analysis, Logging and Insights
+** Install <b>Marvel</b> For Network Analysis, Logging and Insights
  ./bin/plugin --install elasticsearch/marvel/latest
-** Install Head For Distributed System Discovery and Maintainence
+** Install <b>Head</b> For Distributed System Discovery and Maintainence
  bin/plugin --install mobz/elasticsearch-head
+<hr>
+** For Advance User add Shield for Security Perpose
+ bin/plugin --install elasticsearch/license/latest
+ bin/plugin --install elasticsearch/shield/latest
 
+** Now Create a User::Pass for Shield_proxy (-r is the role)
+ bin/shield/esusers useradd <username> -r admin 
 
 h3. Run ElasticSearch
 
